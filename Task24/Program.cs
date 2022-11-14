@@ -4,13 +4,20 @@
 //8->36
 Console.WriteLine("Enter number ");
 int number = Convert.ToInt32(Console.ReadLine());
-int i = 1;
+
 int sum = 0;
-while(i <= number)
+// int i =1;
+// while(i <= number)
+// {
+//     sum = sum + i;
+//     i++;
+    
+    
+// }
+//  Console.WriteLine(sum);
+for(int i = 1; i <= number; i++ )
 {
-    sum = sum + i;
-    i++;
-    
-    
+    sum = sum +i;
 }
- Console.WriteLine(sum);
+Console.WriteLine($"Sum of digits from 1 to {number} = {sum}");
+
